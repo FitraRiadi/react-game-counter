@@ -1,0 +1,34 @@
+
+#react-logo{
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.game-card{
+    animation: intro 1s;
+    transition: 0.2s ease;
+}
+
+.game-card:hover{
+    background-color: rgba(11, 198, 204, 0.89) !important;
+    border: 2px solid white;
+    transform: translateY(-6px);
+}
+
+@keyframes intro {
+    from{
+        transform: translateY(10px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+}
