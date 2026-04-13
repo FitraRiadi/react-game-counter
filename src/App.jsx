@@ -16,7 +16,7 @@ function App() {
   const [gameSet,setGameSet] = useState(true);
   const [gameStart,setGameStart] = useState(false);
   const [score,setScore] = useState(0);
-  const [time,setTime] = useState(10);
+  const [time,setTime] = useState(15);
   const [right,setRight] = useState(null);
   const starter = useRef(null);
   
@@ -149,7 +149,7 @@ function App() {
         if (result.value) {
           setGameSet(true);
           setName('Player');
-          setTime(10);
+          setTime(15);
           setScore(0);
           setSymbol(null);
           setSymbolTime(0);
